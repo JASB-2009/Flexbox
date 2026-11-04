@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f1f1f1; 
+    font-family: Arial, sans-serif;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.centered-box {
+    background-color: #e8e4df;
+    padding: 40px;
+    max-width: 500px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+
+.centered-box h2 {
+    margin-top: 0;
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.centered-box p {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}

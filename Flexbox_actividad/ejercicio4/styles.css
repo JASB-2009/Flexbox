@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+
+.galeria-contenedor {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 30px; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.tarjeta {
+    background-color: #e0e0e0; 
+    width: 280px; 
+    height: 280px; 
+    border-radius: 12px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); 
+    transition: transform 0.2s ease;
+}
+
+
+.tarjeta:hover {
+    transform: translateY(-4px);
+}
+
+
+.tarjeta span {
+    color: #555555;
+    font-size: 16px;
+    font-weight: 500;
+}
